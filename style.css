@@ -47,8 +47,8 @@ h1 {
 }
 
 .card img {
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   margin-bottom: 12px;
   display: flex;
   flex-direction: column;
