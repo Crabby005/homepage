@@ -10,6 +10,9 @@ body {
 }
 
 .container {
+  display: -webkit-flex; /* 兼容 Safari */
+  display: -ms-flexbox;  /* 兼容 IE10 */
+  display: flex;         /* 标准写法 */
   text-align: center;
   padding: 40px 20px;
   max-width: 800px;
