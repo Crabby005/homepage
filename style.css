@@ -49,12 +49,12 @@ h1 {
 .card img {
   width: 48px;
   height: 48px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; /* 垂直居中 */
-  height: 240px; /* 可根据需要调整卡片高度 */
+  height: 120px; /* 可根据需要调整卡片高度 */
 }
 
 footer {
