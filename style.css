@@ -85,3 +85,59 @@ body {
   font-size: 13px;
   color: #888;
 }
+
+/* =========================
+   Mobile responsive
+   ========================= */
+@media (max-width: 600px) {
+
+  /* 主容器更紧凑 */
+  .container {
+    padding: 32px 16px 20px;
+  }
+
+  /* 标题稍微小一点 */
+  .title {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+
+  /* 时间 */
+  .clock {
+    margin-top: -12px;
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+
+  /* 图标网格：2 列 */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  /* 卡片变大 */
+  .card {
+    width: 100%;
+    height: 130px;
+    border-radius: 14px;
+  }
+
+  /* 图标更大 */
+  .card img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 12px;
+  }
+
+  /* 文字稍微大一点 */
+  .card span {
+    font-size: 15px;
+  }
+
+  /* 页脚贴底 */
+  .footer {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
+
