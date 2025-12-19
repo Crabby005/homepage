@@ -68,6 +68,17 @@
 
   updateClock();
   setInterval(updateClock, 1000);
+
+  document.getElementById('email-link').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const user = 'crabby005';
+    const domain = 'gmail.com';
+    const subject = encodeURIComponent('来自 Crabby 主页的联系');
+
+    window.location.href =
+      `mailto:${user}@${domain}?subject=${subject}`;
+  });
 </script>
   
 </body>
