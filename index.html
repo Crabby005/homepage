@@ -63,7 +63,7 @@
       pad(now.getMinutes()) + ':' +
       pad(now.getSeconds());
 
-    document.getElementById('clock').textContent = timeStr;
+  document.getElementById('clock').textContent = timeStr;
   }
 
   updateClock();
@@ -79,6 +79,11 @@
     window.location.href =
       `mailto:${user}@${domain}?subject=${subject}`;
   });
+
+  document.querySelectorAll('.card').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });  
 </script>
   
 </body>
