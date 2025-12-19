@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+.clock {
+  margin-top: -30px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 1px;
+}
 
 body {
   margin: 0;
